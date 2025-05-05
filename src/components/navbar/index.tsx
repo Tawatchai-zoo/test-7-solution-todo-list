@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 export const navItems = [
   { name: "Home", href: "/" },
   { name: "Todo List", href: "/todo-list" },
+  { name: "Users Departments", href: "/users-departments" },
 ];
 
 interface NavbarProps {
