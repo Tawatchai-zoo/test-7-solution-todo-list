@@ -27,6 +27,6 @@ const UserServiceClient = protoDescriptor.user.UserService;
 
 // Create the client instance
 export const userClient = new UserServiceClient(
-  process.env.GRPC_URL ?? 'localhost:5000',
+  process.env.NEXT_PUBLIC_GRPC_URL ?? 'localhost:5000',
   grpc.credentials.createInsecure()
 );

@@ -54,7 +54,7 @@ export default function UserDepartments() {
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg p-6 mx-6">
             <div className="text-2xl font-bold mb-6 flex justify-between">
                 <h1 >Get user departments with gRPC</h1>
-                <a href={process.env.USERS_DEPARTMENTS_REPO} target="_blank" className="hover:text-blue-500 cursor-pointer">Repository</a>
+                <a href={process.env.NEXT_PUBLIC_USERS_DEPARTMENTS_REPO} target="_blank" className="hover:text-blue-500 cursor-pointer">Repository</a>
             </div>
             <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 min-h-100">
                 <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
