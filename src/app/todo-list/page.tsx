@@ -3,7 +3,6 @@
 import TodoList from '@/components/TodoList';
 import useTodoList from './hooks/useTodoList';
 import { TodoItemType } from '@/constants/todo.constant';
-import Link from 'next/link';
 
 export default function TodoSortingApp() {
   const { mainList,
